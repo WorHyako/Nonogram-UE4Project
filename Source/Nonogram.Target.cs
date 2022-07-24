@@ -1,14 +1,14 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class NonogramTarget : TargetRules
+public class NonogramTarget
+	: TargetRules
 {
-	public NonogramTarget( TargetInfo Target) : base(Target)
+	public NonogramTarget(TargetInfo target)
+		: base(target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "Nonogram" } );
+		ExtraModuleNames.AddRange(new[] { "Nonogram" });
 	}
 }
