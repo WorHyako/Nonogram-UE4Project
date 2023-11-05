@@ -1,3 +1,5 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
 #include "Nonogram.h"
 #include "Modules/ModuleManager.h"
 

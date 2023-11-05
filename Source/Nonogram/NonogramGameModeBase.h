@@ -6,7 +6,8 @@
 
 UCLASS()
 class NONOGRAM_API ANonogramGameModeBase
-	: public AGameModeBase
+: public AGameModeBase
 {
 	GENERATED_BODY()
+
 };
